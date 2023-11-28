@@ -25,9 +25,6 @@ namespace Organizador_2._0
             // Configuração do tamanho fixo
             this.Size = new Size(338, 417);
 
-            // Associar o evento btnModoEscuro_Click ao manipulador de eventos btnModoEscuro_Click
-            Botao_Cor.Click += Botao_Cor_Click;
-
             // Configurar o BackgroundWorker para relatar progresso
             backgroundWorker1.WorkerReportsProgress = true;
 
@@ -68,16 +65,6 @@ namespace Organizador_2._0
             {
                 string configContent = File.ReadAllText(configPath);
                 isDarkMode = configContent.Trim() == "modo_escuro";
-            }
-
-            // Ajuste aqui usando if-else
-            if (isDarkMode)
-            {
-                Botao_Cor.Text = "Modo Claro";
-            }
-            else
-            {
-                Botao_Cor.Text = "Modo Escuro";
             }
         }
 
@@ -185,36 +172,7 @@ namespace Organizador_2._0
 
         private void Botao_Cor_Click(object sender, EventArgs e)
         {
-            try
-            {
-                // Inverte o valor de isDarkMode
-                isDarkMode = !isDarkMode;
-
-                // Adicione mensagens de console para depuração
-                Console.WriteLine($"isDarkMode: {isDarkMode}");
-
-                // Garanta que Botao_Cor está sendo referenciado corretamente
-                if (sender is Button botao)
-                {
-                    // Define o texto do botão com base no modo
-                    botao.Text = isDarkMode ? "Modo Claro" : "Modo Escuro";
-
-                    // Adicione mensagens de console para depuração
-                    Console.WriteLine($"Botao_Cor.Text: {botao.Text}");
-
-                    // Salva o novo modo no arquivo config.txt
-                    string configPath = "config.txt";
-                    File.WriteAllText(configPath, isDarkMode ? "modo_escuro" : "modo_claro");
-                }
-                else
-                {
-                    Console.WriteLine("Erro: O sender não é do tipo Button.");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Erro ao processar Botao_Cor_Click: {ex.Message}");
-            }
+            
         }
 
         private void Botao_Update_Click(object sender, EventArgs e)

@@ -121,92 +121,20 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="PictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 79</value>
-  </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 34</value>
-  </data>
-  <data name="PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="PictureBox2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
-    <value>PictureBox2</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="PictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 15</value>
-  </data>
-  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 34</value>
-  </data>
-  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="PictureBox1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
-    <value>PictureBox1</value>
-  </data>
-  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
-  </data>
-  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="progressBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="progressBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 309</value>
   </data>
   <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
     <value>307, 9</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
@@ -255,6 +183,18 @@
   <data name="&gt;&gt;Botao_Update.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="tableLayoutPanel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -286,21 +226,93 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Botao_Cor" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Update" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Botao_Cor" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Update" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="pictureBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 41</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -334,7 +346,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
@@ -411,29 +423,17 @@
   <data name="tableLayoutPanel9.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="Botao_Saida.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
   </data>
-  <data name="Botao_Saida.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Botao_Saida.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 8.25pt</value>
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
   </data>
-  <data name="Botao_Saida.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 64</value>
-  </data>
-  <data name="Botao_Saida.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Botao_Saida.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 64</value>
-  </data>
-  <data name="Botao_Saida.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="Botao_Saida.Text" xml:space="preserve">
-    <value>Selecione a Saida</value>
+  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;Botao_Saida.Name" xml:space="preserve">
     <value>Botao_Saida</value>
@@ -447,26 +447,17 @@
   <data name="&gt;&gt;Botao_Saida.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Botao_Entrada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
   </data>
-  <data name="Botao_Entrada.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 8.25pt</value>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Botao_Entrada.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
   </data>
-  <data name="Botao_Entrada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Botao_Entrada.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 64</value>
-  </data>
-  <data name="Botao_Entrada.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Botao_Entrada.Text" xml:space="preserve">
-    <value>Selecione a Entrada</value>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;Botao_Entrada.Name" xml:space="preserve">
     <value>Botao_Entrada</value>
@@ -478,28 +469,7 @@
     <value>tableLayoutPanel9</value>
   </data>
   <data name="&gt;&gt;Botao_Entrada.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Botao_Organizar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Botao_Organizar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 8.25pt</value>
-  </data>
-  <data name="Botao_Organizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 128</value>
-  </data>
-  <data name="Botao_Organizar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Botao_Organizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 66</value>
-  </data>
-  <data name="Botao_Organizar.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="Botao_Organizar.Text" xml:space="preserve">
-    <value>Organizar</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;Botao_Organizar.Name" xml:space="preserve">
     <value>Botao_Organizar</value>
@@ -511,7 +481,7 @@
     <value>tableLayoutPanel9</value>
   </data>
   <data name="&gt;&gt;Botao_Organizar.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="tableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 103</value>
@@ -538,7 +508,7 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PictureBox2" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Saida" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Entrada" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Organizar" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="PictureBox1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,30,Percent,40,Percent,30" /&gt;&lt;Rows Styles="Percent,30,Percent,30,Percent,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PictureBox2" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Saida" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="PictureBox1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Entrada" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Botao_Organizar" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,30,Percent,40,Percent,30" /&gt;&lt;Rows Styles="Percent,30,Percent,30,Percent,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 1</value>
@@ -567,119 +537,8 @@
   <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel8" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="progressBar1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel9" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,12,23231,Percent,12,53824,Percent,2,507648,Percent,55,97826,Percent,4,076087,Percent,12,53824" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="Botao_Cor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Botao_Cor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="Botao_Cor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Botao_Cor.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 8.25pt</value>
-  </data>
-  <data name="Botao_Cor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 0</value>
-  </data>
-  <data name="Botao_Cor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Botao_Cor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 46</value>
-  </data>
-  <data name="Botao_Cor.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Botao_Cor.Text" xml:space="preserve">
-    <value>Modo Escuro</value>
-  </data>
-  <data name="&gt;&gt;Botao_Cor.Name" xml:space="preserve">
-    <value>Botao_Cor</value>
-  </data>
-  <data name="&gt;&gt;Botao_Cor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Botao_Cor.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
-  </data>
-  <data name="&gt;&gt;Botao_Cor.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Botao_Update.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="Botao_Update.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Botao_Update.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 8.25pt</value>
-  </data>
-  <data name="Botao_Update.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Botao_Update.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Botao_Update.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 46</value>
-  </data>
-  <data name="Botao_Update.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Botao_Update.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;Botao_Update.Name" xml:space="preserve">
-    <value>Botao_Update</value>
-  </data>
-  <data name="&gt;&gt;Botao_Update.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Botao_Update.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
-  </data>
-  <data name="&gt;&gt;Botao_Update.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Hack, 12pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 41</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Organizador de Arquivos</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="Botao_Dev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <data name="Botao_Dev.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -689,6 +548,9 @@
   </data>
   <data name="Botao_Dev.Font" type="System.Drawing.Font, System.Drawing">
     <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Dev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Botao_Dev.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -717,6 +579,9 @@
   <data name="&gt;&gt;Botao_Dev.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="Botao_Discord.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
   <data name="Botao_Discord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -725,6 +590,9 @@
   </data>
   <data name="Botao_Discord.Font" type="System.Drawing.Font, System.Drawing">
     <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Discord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Botao_Discord.Location" type="System.Drawing.Point, System.Drawing">
     <value>208, 0</value>
@@ -753,6 +621,9 @@
   <data name="&gt;&gt;Botao_Discord.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Botao_Git.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
   <data name="Botao_Git.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -761,6 +632,9 @@
   </data>
   <data name="Botao_Git.Font" type="System.Drawing.Font, System.Drawing">
     <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Git.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Botao_Git.Location" type="System.Drawing.Point, System.Drawing">
     <value>104, 0</value>
@@ -787,6 +661,315 @@
     <value>tableLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;Botao_Git.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Botao_Organizar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Botao_Organizar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Botao_Organizar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Botao_Organizar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Organizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Botao_Organizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 128</value>
+  </data>
+  <data name="Botao_Organizar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Botao_Organizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 66</value>
+  </data>
+  <data name="Botao_Organizar.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Botao_Organizar.Text" xml:space="preserve">
+    <value>Organizar</value>
+  </data>
+  <data name="&gt;&gt;Botao_Organizar.Name" xml:space="preserve">
+    <value>Botao_Organizar</value>
+  </data>
+  <data name="&gt;&gt;Botao_Organizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Botao_Organizar.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;Botao_Organizar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Botao_Cor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Botao_Cor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Botao_Cor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Botao_Cor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Cor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Botao_Cor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 0</value>
+  </data>
+  <data name="Botao_Cor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Botao_Cor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 46</value>
+  </data>
+  <data name="Botao_Cor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Botao_Cor.Text" xml:space="preserve">
+    <value>Modo Escuro</value>
+  </data>
+  <data name="&gt;&gt;Botao_Cor.Name" xml:space="preserve">
+    <value>Botao_Cor</value>
+  </data>
+  <data name="&gt;&gt;Botao_Cor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Botao_Cor.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;Botao_Cor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Botao_Update.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Botao_Update.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Botao_Update.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Botao_Update.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Update.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Botao_Update.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Botao_Update.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Botao_Update.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="Botao_Update.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Botao_Update.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;Botao_Update.Name" xml:space="preserve">
+    <value>Botao_Update</value>
+  </data>
+  <data name="&gt;&gt;Botao_Update.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Botao_Update.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;Botao_Update.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="PictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 79</value>
+  </data>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 34</value>
+  </data>
+  <data name="PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="PictureBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Botao_Saida.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Botao_Saida.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Botao_Saida.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Botao_Saida.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Saida.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Botao_Saida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 64</value>
+  </data>
+  <data name="Botao_Saida.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Botao_Saida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 64</value>
+  </data>
+  <data name="Botao_Saida.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Botao_Saida.Text" xml:space="preserve">
+    <value>Selecione a Saida</value>
+  </data>
+  <data name="&gt;&gt;Botao_Saida.Name" xml:space="preserve">
+    <value>Botao_Saida</value>
+  </data>
+  <data name="&gt;&gt;Botao_Saida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Botao_Saida.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;Botao_Saida.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="PictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 15</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 34</value>
+  </data>
+  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="PictureBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Botao_Entrada.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Botao_Entrada.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Botao_Entrada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Botao_Entrada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Hack, 8.25pt</value>
+  </data>
+  <data name="Botao_Entrada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Botao_Entrada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 0</value>
+  </data>
+  <data name="Botao_Entrada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Botao_Entrada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 64</value>
+  </data>
+  <data name="Botao_Entrada.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Botao_Entrada.Text" xml:space="preserve">
+    <value>Selecione a Entrada</value>
+  </data>
+  <data name="&gt;&gt;Botao_Entrada.Name" xml:space="preserve">
+    <value>Botao_Entrada</value>
+  </data>
+  <data name="&gt;&gt;Botao_Entrada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Botao_Entrada.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;Botao_Entrada.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2519,6 +2702,9 @@
         +rET0zSeFn2UhVBHdhqwEdPN4vUR06OqP1+xvn3Fd/howJeHxixtkmiURiRyGIb3B+M9fuL9tjgfKEkO
         nytR1C6VtDRewjvWB+59QfL77/ff77/ff7//fv/9/vv9d/6//wdmRg0lzV2t9wAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
