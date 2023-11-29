@@ -133,6 +133,26 @@ namespace Organizador_2._0.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap botao_off {
+            get {
+                object obj = ResourceManager.GetObject("botao_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap botao_on {
+            get {
+                object obj = ResourceManager.GetObject("botao_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_botao1 {
             get {
                 object obj = ResourceManager.GetObject("fundo_botao1", resourceCulture);
@@ -186,16 +206,6 @@ namespace Organizador_2._0.Properties {
         internal static System.IO.UnmanagedMemoryStream mouse_click {
             get {
                 return ResourceManager.GetStream("mouse_click", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap simbolo_com_fundo {
-            get {
-                object obj = ResourceManager.GetObject("simbolo_com_fundo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

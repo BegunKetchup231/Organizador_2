@@ -23,7 +23,7 @@ namespace Organizador_2._0
             InitializeComponent();
 
             // Configuração do tamanho fixo
-            this.Size = new Size(338, 417);
+            this.Size = new Size(334, 417);
 
             // Configurar o BackgroundWorker para relatar progresso
             backgroundWorker1.WorkerReportsProgress = true;
@@ -60,12 +60,7 @@ namespace Organizador_2._0
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            string configPath = "config.txt";
-            if (File.Exists(configPath))
-            {
-                string configContent = File.ReadAllText(configPath);
-                isDarkMode = configContent.Trim() == "modo_escuro";
-            }
+            Modo_de_Cor();
         }
 
         // Som >>>>>
@@ -172,7 +167,69 @@ namespace Organizador_2._0
 
         private void Botao_Cor_Click(object sender, EventArgs e)
         {
-            
+            if (Botao_Cor.Text == "Modo Escuro")
+            {
+                Botao_Cor.Text = "Modo Claro";
+                // Adicione aqui o código para alterar para o modo claro
+
+                Modo_de_Cor();
+            }
+            else
+            {
+                Botao_Cor.Text = "Modo Escuro";
+                // Adicione aqui o código para alterar para o modo escuro
+
+                Modo_de_Cor();
+            }
+        }
+
+        private void Modo_de_Cor()
+        {
+            if (Botao_Cor.Text == "Modo Escuro")
+            {
+                // Modo Escuro
+                AplicarConfiguracaoDeCorEscura(Botao_Update);
+                AplicarConfiguracaoDeCorEscura(Botao_Cor);
+                AplicarConfiguracaoDeCorEscura(Botao_Entrada);
+                AplicarConfiguracaoDeCorEscura(Botao_Saida);
+                AplicarConfiguracaoDeCorEscura(Botao_Organizar);
+                AplicarConfiguracaoDeCorEscura(Botao_Dev);
+                AplicarConfiguracaoDeCorEscura(Botao_Git);
+                AplicarConfiguracaoDeCorEscura(Botao_Discord);
+
+                // Mudar a cor de fundo do formulário
+                this.BackColor = Color.DarkSlateGray;
+                tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_escuro;
+            }
+
+            else
+            {
+                AplicarConfiguracaoDeCorClara(Botao_Update);
+                AplicarConfiguracaoDeCorClara(Botao_Cor);
+                AplicarConfiguracaoDeCorClara(Botao_Entrada);
+                AplicarConfiguracaoDeCorClara(Botao_Saida);
+                AplicarConfiguracaoDeCorClara(Botao_Organizar);
+                AplicarConfiguracaoDeCorClara(Botao_Dev);
+                AplicarConfiguracaoDeCorClara(Botao_Git);
+                AplicarConfiguracaoDeCorClara(Botao_Discord);
+
+                // Mudar a cor de fundo do formulário
+                this.BackColor = SystemColors.ControlDarkDark; // Volte para a cor padrão do sistema
+                tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_claro;
+            }
+
+        }
+
+        private void AplicarConfiguracaoDeCorClara(Button botao)
+        {
+            botao.ForeColor = Color.BurlyWood;
+            botao.BackColor = Color.DarkBlue;
+        }
+
+        private void AplicarConfiguracaoDeCorEscura(Button botao)
+        {
+            botao.ForeColor = Color.BurlyWood;
+            botao.BackColor = Color.DarkBlue;
         }
 
         private void Botao_Update_Click(object sender, EventArgs e)
