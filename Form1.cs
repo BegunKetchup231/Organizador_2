@@ -23,7 +23,7 @@ namespace Organizador_2._0
             InitializeComponent();
 
             // Configuração do tamanho fixo
-            this.Size = new Size(334, 417);
+            this.Size = new Size(330, 405); ;
 
             // Configurar o BackgroundWorker para relatar progresso
             backgroundWorker1.WorkerReportsProgress = true;
@@ -198,7 +198,7 @@ namespace Organizador_2._0
                 AplicarConfiguracaoDeCorEscura(Botao_Discord);
 
                 // Mudar a cor de fundo do formulário
-                this.BackColor = Color.DarkSlateGray;
+                this.BackColor = Color.CornflowerBlue;
                 tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_escuro;
             }
 
@@ -214,7 +214,7 @@ namespace Organizador_2._0
                 AplicarConfiguracaoDeCorClara(Botao_Discord);
 
                 // Mudar a cor de fundo do formulário
-                this.BackColor = SystemColors.ControlDarkDark; // Volte para a cor padrão do sistema
+                this.BackColor = SystemColors.Desktop; // Volte para a cor padrão do sistema
                 tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_claro;
             }
 
@@ -222,8 +222,8 @@ namespace Organizador_2._0
 
         private void AplicarConfiguracaoDeCorClara(Button botao)
         {
-            botao.ForeColor = Color.BurlyWood;
-            botao.BackColor = Color.DarkBlue;
+            botao.ForeColor = Color.CornflowerBlue;
+            botao.BackColor = Color.FloralWhite;
         }
 
         private void AplicarConfiguracaoDeCorEscura(Button botao)
