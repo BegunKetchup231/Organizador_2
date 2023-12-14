@@ -8,22 +8,39 @@ using System.Linq;
 using System.Media;
 using System.Windows.Forms;
 
+using System.Runtime.InteropServices;
+
 
 namespace Organizador_2._0
 {
     public partial class Form2 : Form
     {
-        private bool isDarkMode = false;
         private string sourceFolder = "";
         private string outputFolder = "";
         private readonly SoundPlayer soundPlayer;
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+        (
+            int nLeftRect,     // x-coordinate of upper-left corner
+            int nTopRect,      // y-coordinate of upper-left corner
+            int nRightRect,    // x-coordinate of lower-right corner
+            int nBottomRect,   // y-coordinate of lower-right corner
+            int nWidthEllipse, // height of ellipse
+            int nHeightEllipse // width of ellipse
+        );
 
         public Form2()
         {
             InitializeComponent();
 
+            // Aqui
+            //this.FormBorderStyle = FormBorderStyle.None;
+            Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 1, 1));
+            // Fim
+
             // Configuração do tamanho fixo
-            this.Size = new Size(330, 405); ;
+            this.Size = new Size(331, 405); ;
 
             // Configurar o BackgroundWorker para relatar progresso
             backgroundWorker1.WorkerReportsProgress = true;
@@ -216,7 +233,7 @@ namespace Organizador_2._0
                 AplicarConfiguracaoDeCorClara(Botao_Discord);
 
                 // Mudar a cor de fundo do formulário
-                this.BackColor = SystemColors.Desktop; // Volte para a cor padrão do sistema
+                this.BackColor = Color.DarkSlateBlue; // Volte para a cor padrão do sistema
 
                 //tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_claro;
             }
@@ -225,13 +242,13 @@ namespace Organizador_2._0
 
         private void AplicarConfiguracaoDeCorClara(Button botao)
         {
-            botao.ForeColor = Color.FloralWhite;
+            botao.ForeColor = Color.DarkSlateBlue;
             botao.BackColor = Color.Indigo;
         }
 
         private void AplicarConfiguracaoDeCorEscura(Button botao)
         {
-            botao.ForeColor = Color.FloralWhite;
+            botao.ForeColor = Color.DarkSlateBlue;
             botao.BackColor = Color.Indigo;
         }
 

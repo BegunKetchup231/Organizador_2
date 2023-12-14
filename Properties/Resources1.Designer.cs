@@ -153,9 +153,9 @@ namespace Organizador_2._0.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Designer__16_ {
+        internal static System.Drawing.Bitmap fundo_botao_xp {
             get {
-                object obj = ResourceManager.GetObject("Designer (16)", resourceCulture);
+                object obj = ResourceManager.GetObject("fundo_botao_xp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +206,16 @@ namespace Organizador_2._0.Properties {
         internal static System.Drawing.Bitmap linha_2 {
             get {
                 object obj = ResourceManager.GetObject("linha_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logoai {
+            get {
+                object obj = ResourceManager.GetObject("Logoai", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,8 +37,6 @@ namespace Organizador_2._0
             this.Botao_Saida = new System.Windows.Forms.Button();
             this.Botao_Entrada = new System.Windows.Forms.Button();
             this.Botao_Organizar = new System.Windows.Forms.Button();
-            this.Botao_Cor = new System.Windows.Forms.Button();
-            this.Botao_Update = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.Botao_Dev = new System.Windows.Forms.Button();
             this.Botao_Discord = new System.Windows.Forms.Button();
@@ -48,6 +46,8 @@ namespace Organizador_2._0
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Botao_Cor = new System.Windows.Forms.Button();
+            this.Botao_Update = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -86,6 +86,7 @@ namespace Organizador_2._0
             // Botao_Saida
             // 
             this.Botao_Saida.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Saida.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Saida, "Botao_Saida");
             this.Botao_Saida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Saida.ForeColor = System.Drawing.Color.FloralWhite;
@@ -96,6 +97,7 @@ namespace Organizador_2._0
             // Botao_Entrada
             // 
             this.Botao_Entrada.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Entrada.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Entrada, "Botao_Entrada");
             this.Botao_Entrada.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Entrada.ForeColor = System.Drawing.Color.FloralWhite;
@@ -106,32 +108,13 @@ namespace Organizador_2._0
             // Botao_Organizar
             // 
             this.Botao_Organizar.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Organizar.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Organizar, "Botao_Organizar");
             this.Botao_Organizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Organizar.ForeColor = System.Drawing.Color.FloralWhite;
             this.Botao_Organizar.Name = "Botao_Organizar";
             this.Botao_Organizar.UseVisualStyleBackColor = false;
             this.Botao_Organizar.Click += new System.EventHandler(this.Botao_Organizar_Click);
-            // 
-            // Botao_Cor
-            // 
-            this.Botao_Cor.BackColor = System.Drawing.Color.Indigo;
-            resources.ApplyResources(this.Botao_Cor, "Botao_Cor");
-            this.Botao_Cor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Botao_Cor.ForeColor = System.Drawing.Color.FloralWhite;
-            this.Botao_Cor.Name = "Botao_Cor";
-            this.Botao_Cor.UseVisualStyleBackColor = false;
-            this.Botao_Cor.Click += new System.EventHandler(this.Botao_Cor_Click);
-            // 
-            // Botao_Update
-            // 
-            this.Botao_Update.BackColor = System.Drawing.Color.Indigo;
-            resources.ApplyResources(this.Botao_Update, "Botao_Update");
-            this.Botao_Update.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Botao_Update.ForeColor = System.Drawing.Color.FloralWhite;
-            this.Botao_Update.Name = "Botao_Update";
-            this.Botao_Update.UseVisualStyleBackColor = false;
-            this.Botao_Update.Click += new System.EventHandler(this.Botao_Update_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -144,6 +127,7 @@ namespace Organizador_2._0
             // Botao_Dev
             // 
             this.Botao_Dev.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Dev.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Dev, "Botao_Dev");
             this.Botao_Dev.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Dev.ForeColor = System.Drawing.Color.FloralWhite;
@@ -154,6 +138,7 @@ namespace Organizador_2._0
             // Botao_Discord
             // 
             this.Botao_Discord.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Discord.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Discord, "Botao_Discord");
             this.Botao_Discord.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Discord.ForeColor = System.Drawing.Color.FloralWhite;
@@ -164,6 +149,7 @@ namespace Organizador_2._0
             // Botao_Git
             // 
             this.Botao_Git.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Git.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
             resources.ApplyResources(this.Botao_Git, "Botao_Git");
             this.Botao_Git.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Git.ForeColor = System.Drawing.Color.FloralWhite;
@@ -213,10 +199,32 @@ namespace Organizador_2._0
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.TabStop = false;
             // 
+            // Botao_Cor
+            // 
+            this.Botao_Cor.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Cor.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
+            resources.ApplyResources(this.Botao_Cor, "Botao_Cor");
+            this.Botao_Cor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Botao_Cor.ForeColor = System.Drawing.Color.FloralWhite;
+            this.Botao_Cor.Name = "Botao_Cor";
+            this.Botao_Cor.UseVisualStyleBackColor = false;
+            this.Botao_Cor.Click += new System.EventHandler(this.Botao_Cor_Click);
+            // 
+            // Botao_Update
+            // 
+            this.Botao_Update.BackColor = System.Drawing.Color.Indigo;
+            this.Botao_Update.BackgroundImage = global::Organizador_2._0.Properties.Resources.fundo_botao_xp;
+            resources.ApplyResources(this.Botao_Update, "Botao_Update");
+            this.Botao_Update.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Botao_Update.ForeColor = System.Drawing.Color.FloralWhite;
+            this.Botao_Update.Name = "Botao_Update";
+            this.Botao_Update.UseVisualStyleBackColor = false;
+            this.Botao_Update.Click += new System.EventHandler(this.Botao_Update_Click);
+            // 
             // pictureBox3
             // 
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
-            this.pictureBox3.BackgroundImage = global::Organizador_2._0.Properties.Resources.Designer__16_;
+            this.pictureBox3.BackgroundImage = global::Organizador_2._0.Properties.Resources.Logoai;
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
@@ -225,10 +233,10 @@ namespace Organizador_2._0
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.BackColor = System.Drawing.Color.Snow;
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.Controls.Add(this.tableLayoutPanel7);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ForeColor = System.Drawing.Color.Black;
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Form2";
