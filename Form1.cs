@@ -199,7 +199,9 @@ namespace Organizador_2._0
 
                 // Mudar a cor de fundo do formulário
                 this.BackColor = Color.CornflowerBlue;
-                tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_escuro;
+                
+
+                //tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_escuro;
             }
 
             else
@@ -215,21 +217,22 @@ namespace Organizador_2._0
 
                 // Mudar a cor de fundo do formulário
                 this.BackColor = SystemColors.Desktop; // Volte para a cor padrão do sistema
-                tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_claro;
+
+                //tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_claro;
             }
 
         }
 
         private void AplicarConfiguracaoDeCorClara(Button botao)
         {
-            botao.ForeColor = Color.CornflowerBlue;
-            botao.BackColor = Color.FloralWhite;
+            botao.ForeColor = Color.FloralWhite;
+            botao.BackColor = Color.Indigo;
         }
 
         private void AplicarConfiguracaoDeCorEscura(Button botao)
         {
-            botao.ForeColor = Color.BurlyWood;
-            botao.BackColor = Color.DarkBlue;
+            botao.ForeColor = Color.FloralWhite;
+            botao.BackColor = Color.Indigo;
         }
 
         private void Botao_Update_Click(object sender, EventArgs e)

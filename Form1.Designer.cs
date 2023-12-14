@@ -34,11 +34,9 @@ namespace Organizador_2._0
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.Botao_Saida = new System.Windows.Forms.Button();
             this.Botao_Entrada = new System.Windows.Forms.Button();
             this.Botao_Organizar = new System.Windows.Forms.Button();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Botao_Cor = new System.Windows.Forms.Button();
             this.Botao_Update = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -48,13 +46,17 @@ namespace Organizador_2._0
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -81,17 +83,9 @@ namespace Organizador_2._0
             this.tableLayoutPanel9.ForeColor = System.Drawing.Color.Purple;
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             // 
-            // PictureBox2
-            // 
-            this.PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.PictureBox2, "PictureBox2");
-            this.PictureBox2.Image = global::Organizador_2._0.Properties.Resources.Avah_3;
-            this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.TabStop = false;
-            // 
             // Botao_Saida
             // 
-            this.Botao_Saida.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Saida.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Saida, "Botao_Saida");
             this.Botao_Saida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Saida.ForeColor = System.Drawing.Color.FloralWhite;
@@ -101,7 +95,7 @@ namespace Organizador_2._0
             // 
             // Botao_Entrada
             // 
-            this.Botao_Entrada.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Entrada.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Entrada, "Botao_Entrada");
             this.Botao_Entrada.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Entrada.ForeColor = System.Drawing.Color.FloralWhite;
@@ -111,7 +105,7 @@ namespace Organizador_2._0
             // 
             // Botao_Organizar
             // 
-            this.Botao_Organizar.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Organizar.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Organizar, "Botao_Organizar");
             this.Botao_Organizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Organizar.ForeColor = System.Drawing.Color.FloralWhite;
@@ -119,17 +113,9 @@ namespace Organizador_2._0
             this.Botao_Organizar.UseVisualStyleBackColor = false;
             this.Botao_Organizar.Click += new System.EventHandler(this.Botao_Organizar_Click);
             // 
-            // PictureBox1
-            // 
-            this.PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.PictureBox1, "PictureBox1");
-            this.PictureBox1.Image = global::Organizador_2._0.Properties.Resources.Avah_3;
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.TabStop = false;
-            // 
             // Botao_Cor
             // 
-            this.Botao_Cor.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Cor.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Cor, "Botao_Cor");
             this.Botao_Cor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Cor.ForeColor = System.Drawing.Color.FloralWhite;
@@ -139,7 +125,7 @@ namespace Organizador_2._0
             // 
             // Botao_Update
             // 
-            this.Botao_Update.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Update.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Update, "Botao_Update");
             this.Botao_Update.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Update.ForeColor = System.Drawing.Color.FloralWhite;
@@ -157,7 +143,7 @@ namespace Organizador_2._0
             // 
             // Botao_Dev
             // 
-            this.Botao_Dev.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Dev.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Dev, "Botao_Dev");
             this.Botao_Dev.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Dev.ForeColor = System.Drawing.Color.FloralWhite;
@@ -167,7 +153,7 @@ namespace Organizador_2._0
             // 
             // Botao_Discord
             // 
-            this.Botao_Discord.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Discord.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Discord, "Botao_Discord");
             this.Botao_Discord.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Discord.ForeColor = System.Drawing.Color.FloralWhite;
@@ -177,7 +163,7 @@ namespace Organizador_2._0
             // 
             // Botao_Git
             // 
-            this.Botao_Git.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Botao_Git.BackColor = System.Drawing.Color.Indigo;
             resources.ApplyResources(this.Botao_Git, "Botao_Git");
             this.Botao_Git.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Botao_Git.ForeColor = System.Drawing.Color.FloralWhite;
@@ -208,14 +194,38 @@ namespace Organizador_2._0
             this.tableLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel4.Controls.Add(this.Botao_Cor, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.Botao_Update, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.pictureBox3, 1, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            // 
+            // PictureBox2
+            // 
+            this.PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
+            this.PictureBox2.Image = global::Organizador_2._0.Properties.Resources.Avah_3;
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.TabStop = false;
+            // 
+            // PictureBox1
+            // 
+            this.PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.PictureBox1, "PictureBox1");
+            this.PictureBox1.Image = global::Organizador_2._0.Properties.Resources.Avah_3;
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.BackgroundImage = global::Organizador_2._0.Properties.Resources.Designer__16_;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
             // 
             // Form2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.Snow;
             this.Controls.Add(this.tableLayoutPanel7);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.Color.Black;
@@ -225,12 +235,13 @@ namespace Organizador_2._0
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.tableLayoutPanel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,6 +265,7 @@ namespace Organizador_2._0
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

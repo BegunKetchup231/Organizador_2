@@ -119,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone_pasta.ico" />
+    <None Include="Resources\Designer %2816%29.png" />
     <None Include="Resources\botao_off.png" />
     <None Include="Resources\botao_on.png" />
     <None Include="Resources\fundo_botao1.gif" />
