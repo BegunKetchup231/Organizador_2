@@ -6,9 +6,8 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Media;
-using System.Windows.Forms;
-
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 
 namespace Organizador_2._0
@@ -34,10 +33,8 @@ namespace Organizador_2._0
         {
             InitializeComponent();
 
-            // Aqui
             //this.FormBorderStyle = FormBorderStyle.None;
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 1, 1));
-            // Fim
 
             // Configuração do tamanho fixo
             this.Size = new Size(331, 405); ;
@@ -216,7 +213,7 @@ namespace Organizador_2._0
 
                 // Mudar a cor de fundo do formulário
                 this.BackColor = Color.CornflowerBlue;
-                
+
 
                 //tableLayoutPanel9.BackgroundImage = Properties.Resources.fundo_escuro;
             }

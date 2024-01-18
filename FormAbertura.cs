@@ -11,13 +11,7 @@ namespace Organizador_2._0
         {
             InitializeComponent();
             // Configurações adicionais, se houver...
-        }
-
-        // Adicione isso se não existir
-        internal void FecharForm2()
-        {
-            // Adicione o código para fechar Form2, se necessário
-        }
+        } 
 
         private async void FormAbertura_Shown(object sender, EventArgs e)
         {
