@@ -37,8 +37,8 @@ namespace Organizador_2._0
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 1, 1));
 
             // Configuração do tamanho fixo
-            this.Size = new Size(331, 405); ;
-
+            this.Size = new Size(331, 405);
+            
             // Configurar o BackgroundWorker para relatar progresso
             backgroundWorker1.WorkerReportsProgress = true;
 
@@ -251,7 +251,7 @@ namespace Organizador_2._0
 
         private void Botao_Update_Click(object sender, EventArgs e)
         {
-            string url = "https://github.com/BegunKetchup231";
+            string url = "https://github.com/BegunKetchup231/Organizador_2";
 
             try
             {

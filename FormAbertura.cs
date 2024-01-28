@@ -16,7 +16,7 @@ namespace Organizador_2._0
         private async void FormAbertura_Shown(object sender, EventArgs e)
         {
             // Aguarde 3 segundos
-            await Task.Delay(3000);
+            await Task.Delay(1000);
 
             // Inicie o Form2
             Form2 form2 = new Form2();
